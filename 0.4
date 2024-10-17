@@ -1,0 +1,4 @@
+browser ->> server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+activate server
+server ->> browser: [{ "content": "Any thing is possible", "date": "2024-17-10 }, ... ]
+deactivate server
